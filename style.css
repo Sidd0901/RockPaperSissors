@@ -1,0 +1,73 @@
+
+body{
+    color: white;
+    background-color: rgb(32, 19, 19);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.header {
+    text-align: center;
+    height: 16svh;
+    width 100svw;
+}
+
+.game{
+    display: flex;
+}
+
+.left{
+    width: 40svw;
+    height: 80svh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.right{
+    width: 40svw;
+    height: 80svh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.centre{
+    width: 20svw;
+    height: 80svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.title{
+    font-size: 3.5svh;
+}
+ .yourChoice{
+ 
+    height: 25svh;
+    width: 25svh;
+    border: 2px solid white;
+   
+    /* border-radius: 2px; */
+    box-sizing: border-box;
+ }
+
+ .roundResult{
+    
+    height: 15svh;
+    width: 15svw;
+    border: 2px solid white;
+   
+    /* border-radius: 2px; */
+    box-sizing: border-box;
+ }
+.totalChoices button{
+    height: 7svh;
+    width: 7svw;
+}
+.score, .count {
+    border: 2px solid white;
+}
