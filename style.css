@@ -17,7 +17,7 @@ body{
 
 .left{
     width: 40svw;
-    height: 80svh;
+    height: 60svh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,7 +26,7 @@ body{
 
 .right{
     width: 40svw;
-    height: 80svh;
+    height: 60svh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,7 +35,7 @@ body{
 
 .centre{
     width: 20svw;
-    height: 80svh;
+    height: 60svh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,7 +49,7 @@ body{
  
     height: 25svh;
     width: 25svh;
-    border: 2px solid white;
+    /* border: 2px solid white; */
    
     /* border-radius: 2px; */
     box-sizing: border-box;
@@ -57,17 +57,38 @@ body{
 
  .roundResult{
     
-    height: 15svh;
-    width: 15svw;
-    border: 2px solid white;
-   
+    height: 20svh;
+    width: 30svw;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
     /* border-radius: 2px; */
     box-sizing: border-box;
  }
+ .totalChoices{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+ }
 .totalChoices button{
-    height: 7svh;
-    width: 7svw;
+    height: 10svh;
+    width: 14svw;
+    font-size: medium;
+    font-weight: 900;
+    margin-inline: 3svw;
+    border-radius: 2svw;
 }
-.score, .count {
+.score {
+    height: 10svh;
+    width: 20svw;
     border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }

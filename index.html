@@ -10,40 +10,36 @@
 <body>
     <!-- Some good background photo which is transparent with some calm bg music -->
     <!--  heading for rock paper sissors 20 svh and 100svw-->
-    <header class="header"><h1>Rock Paper Sissors</h1></header>
+    <header class="header"><h1>Rock Paper Scissors</h1></header>
     <div class="game ">
         <div class="left "> 
-            <div class="score"><div class="name">Computer Score</div><div class="count">Number</div>
+            <div class="score"><div class="name">Your Score</div><div class="count" id="countP"></div>
             </div>
 
          <div class="title person">You</div>
-             <div class="yourChoice person"></div>
-             <div class="totalChoices person">
-                <button class="rock person">Rock</button>
-                <button class="paper person">Paper</button>
-                <button class="sissors person">Sissors</button>
-
-             </div>
+             <div class="yourChoice person" id="displayP"></div>
+             
 
         </div>
         <div class="centre">
-            <div class="roundResult"></div>
+            <div class="roundResult" id = "resultWindow"></div>
         </div>
         <div class="right"> 
-        <div class="score"><div class="name">Computer Score</div><div class="count">Number</div>
+        <div class="score"><div class="name">Computer Score</div><div class="count" id="countC"></div>
         </div>
        
             <div class="title computer">Computer</div>
-            <div class="yourChoice computer">
+            <div class="yourChoice computer" id="displayC">
             </div>
-             <div class="totalChoices computer">
-             <button class="rock computer" disabled >Rock</button>
-             <button class="paper computer" disabled >Paper</button>
-             <button class="sissors computer" disabled >Sissors</button>
-             
-            </div>
+            
         </div>
     </div>
+    <div class="totalChoices person">
+        <button class="rock person" id="buttonR">Rock</button>
+        <button class="paper person" id="buttonP">Paper</button>
+        <button class="sissors person" id="buttonS">Scissors</button>
+
+     </div>
     <script src="script.js"></script>
 </body>
 </html>
